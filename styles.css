@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+
+header {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+}
+
+.navigation {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.navigation img {
+    max-width: 200px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Barlow;
+    color: white;
+    margin: 10px;
+    padding-right: 30px;
+
+}
+
+.header-content {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+
+    align-items: center;
+    font-family: Fraunces;
+    text-transform: uppercase;
+    color:white;
+    font-size: 52px;
+    letter-spacing: 6px;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: Fraunces;
+    color: black;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: Fraunces;
+    color: black;
+    font-size: 26px;
+}
+
+p {
+    font-family: Barlow;
+    line-height: 160%;
+    color: hsl(232, 10%, 55%);
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    max-width: 400px;
+    margin-left: 100px;
+    margin-left: 100px;
+}
+
+.audience {
+    max-width: 400px;
+    margin-right: 100px;
+}
+
+.design {
+    display: flex;
+    background-image: url(images/desktop/image-graphic-design.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+
+}
+
+.photography {
+    display: flex;
+    background-image: url(images/desktop/image-photography.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+
+}
+
+.grid {
+    display: flex;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    max-width: 400px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+}
